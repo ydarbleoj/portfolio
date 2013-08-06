@@ -1,149 +1,123 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-        <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-        <script src="http://cdn.oesmith.co.uk/morris-0.4.1.min.js"></script>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Joels Portfolio</title>
+	<link rel="stylesheet" href="mobileFirst.css">
+	<!-- <link rel="stylesheet" href="imageHover.css"> -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400' rel='stylesheet' type='text/css'>
+</head>
+	<body>
+		<div id="logo"><span>J</span><span>E</span><span>B</span>
+		</div>
+	<nav>
+		
+		<ul class="navbar" id="mainNavbar">
+			<!-- <li><a href="#"><img src="brain.png" alt=""></a></li> -->
+			<li><a href="http://instagram.com/y_darb_leoj" target="_blank"><img src="instagram.png" alt=""></a></li>
+			<li class="icon"><a href="mailto:brady.joel@gmail.com"><img src="inbox.png" alt=""></a></li>
+		</ul>
+	</nav>
+		<div class="nav-image">
+			<img src="images/elBarista_large2.jpg" alt="">
+		</div>
+	<article>
+		<div class="center">
+            <h3>
+                Hi, I'm <span>Joel Brady</span>. 
+            </h3>
+            <p>I'm an aspiring designer/developer who finds inspiration in great <span>ui|x</span>, coffee, finding the gaps, todo apps, and my family. I intend for this to be a <span>place</span> where I tinker with the skills I acquire along the way. Take a look around - things are bound to <span>change</span>.</p>
+        </div>
+	</article>
+	<div class="container">
+		<div class="image-section1">
+			<img class="images" id="image-1" src="images/sunTree_opt.jpg" alt="">
+			<img class="images" id="image-2"src="images/dogLeaves_opt.jpg" alt="">
+		</div>
+		<div class="image-section2">
+			<img class="images" id="image-3" src="images/pondTree_opt.jpg" alt="">
+				<img class="images" id="image-4" src="images/duw.jpg" alt="">
+				
+			
+		</div>
+	</div class="container">
+	<div class="blog">
+		<div class="blog1">
+		<p> My goal over the past couple of weeks was to continually introduce more interactivity and responsiveness. As a result, I completely rebuilt this site with a mobile first emphasis - in addition to introducing a jQuery plugin.</p>
+		</div>
+		<div class="blog-images">
+			<img class="images" id="image-5" src="images/streetTrees.jpg" alt="">
+			<img class="images" id="image-6"src="images/kate_easter_opt.jpg" alt="">
+		</div>	
+	</div>
+	</div class="container">
+	<div class="blog2">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="boiler.css">
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
-        <!--<link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">-->
-        <link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
-    <div id="container">
-        <!-- Start of First 2 x 8 -->
-        <div class="leftside" id="upper">
-            <p class="logo">j<span>3</span></p>
-        </div>
-        <div class="center">
-            <p>I'm an aspiring designer/developer who finds inspiration in great <span>ux|i</span>, coffee, todo apps, and my family. I intend for this to be a <span>place</span> where I tinker with the skills I acquire along the way. Take a look around - things are bound to <span>change</span>.</p>
-        </div>
-        <div class="rightside" id="upper">
-            <img src="timthumb.jpeg" alt="" width="250px" height="250px">
-        </div>
-        <div class="rightside" id="lower">
-            <img src="apples.jpg" alt="" width="250px" height="250px">
-        </div>
-        <div class="leftside" id="lower">
-            <img src="japaneseGarden.jpg" alt="" width="250px" height="250px">
-        </div> <!-- End of First 2 x 8 --> 
-        <!-- Start of Second 2 x 8 -->
-        <div class="eliot">
-            <div id="left">
-                <img class="top" src="images1.jpg" alt="" width="250px" height="250px">
-                <img class="bottom" src="fallElOtis.jpg" alt="" width="250px" height="250px">
-
-            </div>
-            <div id="right">
-                <img class="top" src="elBush.jpg" alt="" width="250px" height="250px">
-               <!-- <img class="bottom" src="fallElOtis.jpg" alt="" width="250px" height="250px">-->
-            </div>
-        </div>
-        <div class="mom">
-            <div id="momLeft"><img src="momTree.jpg" alt="" width="250px" height="250px"></div>
-            <div id="momRight"><img src="coolKate.jpg" alt="" width="250px" height="250px"></div>
-        </div>
-        <section class="graph">
-            <div id="donut-example">
-                <div class="outerClass">
-                <div class="innerClass"></div></div>
-                <div class="html">
-                    <h3>HTML/CSS</h3>
-                    <p>80</p>
-                </div>
-                <div class="outerClass2">
-                <div class="innerClass2"></div></div>
-                <div class="ruby">
-                    <h3>Ruby/Rails</h3>
-                    <p>32</p>
-                </div>
-                <div class="outerClass3">
-                <div class="innerClass3"></div></div>
-                <div class="javascript">
-                    <h3>JS/jQuery</h3>
-                    <p>25</p>
-                </div>
-                <div class="outerClass4">
-                <div class="innerClass4"></div></div>
-                <div class="total">
-                    <h3>Total Hours</h3>
-                    <p>150</p>
-                </div>
-
-                <!--<h4 width="250px" height="250px">
-                <script src="boiler2.js"></script>
-                </h4>-->
-            </div>
-        </section> <!-- End of Second 2 x 8 -->
-        <!-- Start of Third 2 x 8 -->
-        <div class="blog">
-            <div id="entry1">
-                <p> My goal over the coming weeks is to continually introduce more interactivity and responsiveness.
-                This will come with the introduction of media queries and changing pxs to ems. In addition to introducing jQuery.</p>
-            </div>
-            <div id="date1">
-                <li id="twitter"><a href="https://twitter.com/joelbrady" target="_blank">Twitter</a></li>
-                <li id="github"><a href="https://github.com/"target="_blank">Github</a></li>
-                <li id="codeschool"><a href="http://www.codeschool.com/users/Joelbrady" target="_blank">Code School</a></li>
-                <li id="pintrest"><a href="http://pinterest.com/joelbrady/boards/" target="_blank">Pintrest</a></li>
-            </div>
-            <div id="blogImage">
-                <img src="duw.jpg" alt="" width="250px" height="250px">
-            </div>
-        </div><!-- End of Third 2 x 8 -->
-        <section class="blog2">
-            <div id="entry2">
-                <p>The <span>above graph</span> highlights the hours I've spent over the course of 4 months on the respective languages (and framework).</p>
-            </div>
-            <div id="entry3">
-                <blockquote>
-                <p>It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change. <span>~ Darwin </span>
+		<div class="container2">
+			<p class="month">September 23</p>
+			<span id="defaultCountdown" class="countdown"></span>
+		</div>
+        <div id="entry3">
+            <blockquote>
+                <p>It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change. <span> ~ Darwin </span>
                 </p>
-                </blockquote>
+            </blockquote>
             </div>
+	</div>
+	<div class="button-icon">
+		<li class="social" id="twitter"><a href="https://twitter.com/joelbrady" target="_blank">Twitter</a></li>
+        <li class="social" id="github"><a href="https://github.com/"target="_blank">Github</a></li>
+        <li class="social" id="codeschool"><a href="http://www.codeschool.com/users/Joelbrady" target="_blank">Code School</a></li>
+        <li class="social" id="linkedin"><a href="http://www.linkedin.com/profile/view?id=10224276&trk=nav_responsive_tab_profile" target="_blank">LinkedIn</a></li>
 
-        </section>
-
-    <footer> <!-- Begin Footer --> 
-            <div class="footer">
-                <img src="drinkJoel2.png" alt="" width="175px" height="175px">
-            </div>
-            <div class="description">
-                <p>This is the first site I've ever built from scratch. It is heavily influenced by <a href="http://etchapps.com/" target="_blank">Etch</a> and <a href="http://flipboard.com/" target="_blank">Flipboard</a>.</p>
-            </div>
-           
-    </footer> <!-- End of Footer -->
-    </div>    
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
+	</div>
+	<div class="work">
+		<div class="kate">
+			<div class="kate-images">
+				<img id="katesnow" src="images/katesnow.png" alt="">
+				
+				<img id="katesnow2" src="images/katesnow2.png" alt="">
+				<img id="cosbysm" src="images/cosbysm.png" alt="">
+			</div>
+		</div>
+			<div class="kate-info">
+				<p>This is the beginning stages of a project I'm working on for a friend. Our goals are to make this site with mobile in mind, as well as a simple UI.</p>
+			</div>
+	
+	</div>
+	<footer>
+		<div class="head-shot">
+			<img src="images/drinkjoel2.png" alt="">
+		
+		<p>This is the first site I've design from scratch and my portfolio - <a href="mailto:brady.joel@gmail.com"><span>Get in touch!</span></a></p>
+	</div>
+	</footer>
+<script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.countdown.js"></script>
+            <script type="text/javascript">
+            
+                $(document).ready(function(){
+                
+                      var time = new Date();
+                        time = new Date(2013,9-1,23,0,1);
+                        $('#defaultCountdown').countdown({until: time});
+                        
+                        $('#removeCountdown').toggle(function() {
+                                $(this).text('Re-attach');
+                                $('#defaultCountdown').countdown('destroy');
+                            },
+                            function() {
+                                $(this).text('Remove');
+                                $('#defaultCountdown').countdown({until: time});
+                            }
+                        );
+                      
+ 
+                    $('.show').fadeIn(600);
+              
+                });
+            </script>
+	
+	
+</body>
 </html>
