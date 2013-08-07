@@ -20,7 +20,7 @@ div#logo span {
 	width: 2%;
 	margin: 0;
 	line-height: 2;
-	font-weight: 200;
+	font-weight: 300;
 	float: left;
 
 }
@@ -486,7 +486,7 @@ div.head-shot span:hover {
 		margin-top: 1%;
 		padding: 0;
 	
-		font-size: 2.5em;
+		font-size: 4em;
 	}
 	h3 {
 		text-align: center;
@@ -707,14 +707,15 @@ div.head-shot {
 div.head-shot img {
 	width: 24%;
 	margin-top: 5%;
-	margin-left: 6%;
+	margin-left: 38%;
 }
 
 div.head-shot p {
-	width: 60%;
+	width: 100%;
 	margin-top: 2%;
 	margin-right: 0;
 	text-decoration: none;
+	text-align: center;
 	font-size: 2em;	
 	font-family: Lato, Arial, sans-serif;
 	font-weight: 300;
