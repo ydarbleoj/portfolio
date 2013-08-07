@@ -20,7 +20,7 @@ div#logo span {
 	width: 2%;
 	margin: 0;
 	line-height: 2;
-	font-weight: 100;
+	font-weight: 300;
 	float: left;
 
 }
@@ -90,7 +90,7 @@ article { /*beginning of main body*/
 	margin: 0 auto 2.5% auto;
 	float: left;
 	font-family: Lato, Arial, sans-serif;
-	font-size: 1.5em;
+	font-size: 2em;
 	font-weight: 100;
 	color: #666666;
 	text-align: left;
@@ -205,7 +205,7 @@ p.month {
 	margin-bottom: -1%;
 	background-color: #1F1F1F;
 	color: #666666;
-	font-size: 1.5em;	
+	font-size: 2em;	
 	font-family: Lato, Arial, sans-serif;
 	font-weight: 300;
 	text-align: center;
@@ -227,7 +227,7 @@ p.month {
 .countdown_amount{
 	margin-left: 0em;
 	color:#FF9933;
-	font-size: 1.5em;
+	font-size: 2em;
 	font-weight:lighter;
 	line-height:0px;
 	text-align: left;
@@ -237,7 +237,7 @@ p.month {
 .countdown_day{
 	text-align:center;
 	margin-left:0; 
-	font-size: .75em;
+	font-size: 1em;
 	line-height: 0px;
 	color:#666666;
 	text-transform:uppercase;
@@ -253,7 +253,7 @@ div#entry3 {
 	margin: 2.5% auto 2.5% auto;
 	float: left;
 	font-family: Lato, Arial, sans-serif;
-	font-size: 1.5em;
+	font-size: 2em;
 	font-weight: 200;
 	color: #666666;
 	text-align: left;
@@ -412,7 +412,7 @@ div.kate-info {
 	float: right;
 	background-color: #1F1F1F;
 	color: #666666;
-	font-size: 1.4em;	
+	font-size: 2em;	
 	font-family: Lato, Arial, sans-serif;
 	font-weight: 300;
 	text-align: left;
@@ -435,16 +435,17 @@ div.head-shot {
 }
 
 div.head-shot img {
-	width: 24%;
-	margin-left: 6%;
+	width: 30%;
+	margin-top: 10%;
+	margin-left: 35%;
 }
 
 div.head-shot p {
-	width: 50%;
+	width: 80%;
 	margin-top: 10%;
 	margin-right: 5%;
 	text-decoration: none;
-	font-size: 1.1em;	
+	font-size: 1.75em;	
 	font-family: Lato, Arial, sans-serif;
 	font-weight: 300;
 	color: #666666;
@@ -684,12 +685,14 @@ div.head-shot {
 
 div.head-shot img {
 	width: 24%;
+	margin-top: 0;
 	margin-left: 6%;
 }
 
 div.head-shot p {
-	margin-top: 10%;
-	margin-right: 5%;
+	width: 60%;
+	margin-top: 0;
+	margin-right: 0;
 	text-decoration: none;
 	font-size: 1.5em;	
 	font-family: Lato, Arial, sans-serif;
@@ -2280,7 +2283,8 @@ div.head-shot {
 }
 
 div.head-shot img {
-	width: 10%;
+	width: 15%;
+	margin-top: 0;
 	margin-left: 6%;
 }
 
