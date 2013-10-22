@@ -10,7 +10,7 @@ $(document).ready(function($) {
 	$banner = $('<div>').css({
 	    background: 'rgba(171, 189, 82, 1)',
 	    position: 'absolute',
-	    width: '7.8em',
+	    width: '8em',
 	    height: '0',
 	    top: '0',
 	    opacity: '.7'
@@ -21,7 +21,7 @@ $(document).ready(function($) {
 	$banner2 = $('<div>').css({
 		background: 'rgba(171, 189, 82, 1)',
 		position: 'absolute',
-		width: '11em',
+		width: '11.5em',
 		height: '0',
 		top: '0',
 		opacity: '.7'
@@ -32,7 +32,7 @@ $(document).ready(function($) {
 	$banner3 = $('<div>').css({
 		background: 'rgba(171, 189, 82, 1)',
 		position: 'absolute', 
-		width: '11.3em',
+		width: '11.8em',
 	    height: '0',
 	    top: '0',
 	    opacity: '.7'
