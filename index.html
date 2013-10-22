@@ -2,122 +2,100 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Joels Portfolio</title>
-	<link rel="stylesheet" href="mobileFirst.css">
-	<!-- <link rel="stylesheet" href="imageHover.css"> -->
+	<title>Joel Brady Portfolio</title>
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js'></script>
+	<script type='text/javascript' src='ydarb.js'></script>
+	<script src='jquery.min.js'></script>
+	<link rel="stylesheet" href="ydarb.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400' rel='stylesheet' type='text/css'>
 </head>
-	<body>
-		<div id="logo"><span>J</span><span>E</span><span>B</span>
-		</div>
-	<nav>
-		
+<body>
+	<nav>		
 		<ul class="navbar" id="mainNavbar">
-			<!-- <li><a href="#"><img src="brain.png" alt=""></a></li> -->
-			<li><a href="http://instagram.com/y_darb_leoj" target="_blank"><img src="instagram.png" alt=""></a></li>
-			<li class="icon"><a href="mailto:brady.joel@gmail.com"><img src="inbox.png" alt=""></a></li>
+			<li><a href="https://twitter.com/joelbrady" target='blank'><img src="icons/twitter32.png" alt=""></a></li>
+			<li><a href="http://www.linkedin.com/profile/view?id=10224276&trk=nav_responsive_tab_profile" target='blank'><img src="icons/linkedin.png" alt=""></a></li>
+			<li><a href="http://instagram.com/y_darb_leoj" target="_blank"><img src="icons/instagram.png" alt=""></a></li>
+			<li class="icon"><a href="mailto:brady.joel@gmail.com"><img src="icons/email2.png" alt=""></a></li>
 		</ul>
 	</nav>
-		<div class="nav-image">
-			<img src="images/elBarista_large2.jpg" alt="">
+	<div id="banner">
+		<div class="first-banner">
+			<div id='first-banner'>Hi, I'm <span>Joel Brady</span></div>
 		</div>
-	<article>
-		<div class="center">
-            <h3>
-                Hi, I'm <span>Joel Brady</span>. 
-            </h3>
-            <p>I'm an aspiring designer/developer who finds inspiration in great <span>ui|x</span>, coffee, finding the gaps, todo apps, and my family. I intend for this to be a <span>place</span> where I tinker with the skills I acquire along the way. Take a look around - things are bound to <span>change</span>.</p>
-        </div>
-	</article>
-	<div class="container">
-		<div class="image-section1">
-			<img class="images" id="image-1" src="images/sunTree_opt.jpg" alt="">
-			<img class="images" id="image-2"src="images/dogLeaves_opt.jpg" alt="">
+		<div class="second-banner">
+			<div id='second-banner'>I'm an aspiring <span>developer</span></div>
 		</div>
-		<div class="image-section2">
-			<img class="images" id="image-3" src="images/pondTree_opt.jpg" alt="">
-				<img class="images" id="image-4" src="images/duw.jpg" alt="">
-				
-			
+		<div class="third-banner">
+			<div id='third-banner'>I tinker with beautiful <span>ui|x</span></div>
 		</div>
-	</div class="container">
-	<div class="blog">
-		<div class="blog1">
-		<p> My goal over the past couple of weeks was to continually introduce more interactivity and responsiveness. As a result, I completely rebuilt this site with a mobile first emphasis - in addition to introducing a jQuery plugin.</p>
-		</div>
-		<div class="blog-images">
-			<img class="images" id="image-5" src="images/streetTrees.jpg" alt="">
-			<img class="images" id="image-6"src="images/kate_easter_opt.jpg" alt="">
-		</div>	
 	</div>
-	</div class="container">
-	<div class="blog2">
-
-		<div class="container2">
-			<p class="month">September 23</p>
-			<span id="defaultCountdown" class="countdown"></span>
+	<div class="container">
+		<div id='statement1'>
+	 		<div id='selfie'><img src="images/drinkJoel2.png" alt=""></div>
+			<p>I am a self-taught designer/developer residing in the misty confines of Portland OR. I'm interested in working with people who are interested in creating beautifully unique and intuitive web experiences. Currently, I'm expanding my expertise into Javascript, focusing on backbone and meteor. When I'm not pushing pixels, you can find me playing soccer with my son, enjoying my wife's insanly good cooking, or running through the leaves. Please feel free to <a href="mailto:brady.joel@gmail.com">hit me up!</a></p>
+		</div>	
+		<div id="pictures">
+			<h2 id="inspiration">Some things that inspire</h2>
+			<ul class="grid cs-style">
+				<li id='sunflower'>
+					<figure>
+						<img src="images/dogLeaves_opt2.jpg" alt="">
+						<figcaption>
+							<h3>Southeast</h3>
+							<span>Portland's aesthetics cannot be over stated for their natural beauty</span>
+							<a href="http://instagram.com/y_darb_leoj" target='blank'>Follow</a>
+						</figcaption>
+					</figure>
+				</li>
+				<li id='kone'>
+					<figure>
+						<img src="images/kone1.jpg" alt="">
+						<figcaption>
+							<h3>I am fueled by coffee</h3>
+							<span>I appreciate the simplicity of this filter created by Coava Coffee Roasters</span>
+							<a href="http://coavacoffee.com/" target='blank'>Drink Up!</a>
+						</figcaption>
+					</figure>
+				</li>
+				<li id='family'>
+					<figure>
+						<img src="images/katealpaca.jpg" alt="">
+						<figcaption>
+							<h3>The Family</h3>
+							<span>Kate and Eliot hanging with an alpaca at Marquam Hill Ranch</span>
+							<a href="http://mhralpacas.com/" target='blank'>Visit Them</a>
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
 		</div>
-        <div id="entry3">
-            <blockquote>
+		<div id='philosophy'>		
                 <p>It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change. <span> ~ Darwin </span>
                 </p>
-            </blockquote>
-            </div>
-	</div>
-	<div class="button-icon">
-		<li class="social" id="twitter"><a href="https://twitter.com/joelbrady" target="_blank">Twitter</a></li>
-        <li class="social" id="github"><a href="https://github.com/"target="_blank">Github</a></li>
-        <li class="social" id="codeschool"><a href="http://www.codeschool.com/users/Joelbrady" target="_blank">Code School</a></li>
-        <li class="social" id="linkedin"><a href="http://www.linkedin.com/profile/view?id=10224276&trk=nav_responsive_tab_profile" target="_blank">LinkedIn</a></li>
-
-	</div>
-	<div class="work">
-		<div class="kate">
-			<div class="kate-images">
-				<img id="katesnow" src="images/katesnow.png" alt="">
-				
-				<img id="katesnow2" src="images/katesnow2.png" alt="">
-				<img id="cosbysm" src="images/cosbysm.png" alt="">
-			</div>
 		</div>
-			<div class="kate-info">
-				<p>This is the beginning stages of a project I'm working on for a friend. Our goals are to make this site with mobile in mind, as well as a simple UI.</p>
-			</div>
-	
+		<footer>
+			<p>Made in Portland OR</p>
+			<a href="#statement1"><img src="icons/home32.png" alt=""></a>
+			<p id='creator'>By Joel Brady</p>
+		</footer>
 	</div>
-	<footer>
-		<div class="head-shot">
-			<img src="images/weddingjoel.png" alt="">
-		
-			<p>This is the first site I've designed from scratch and my portfolio - <a href="mailto:brady.joel@gmail.com"><span>Hit me up!</span></a></p>
-		</div>
-	</footer>
-<script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/jquery.countdown.js"></script>
-            <script type="text/javascript">
-            
-                $(document).ready(function(){
-                
-                      var time = new Date();
-                        time = new Date(2013,9-1,23,0,1);
-                        $('#defaultCountdown').countdown({until: time});
-                        
-                        $('#removeCountdown').toggle(function() {
-                                $(this).text('Re-attach');
-                                $('#defaultCountdown').countdown('destroy');
-                            },
-                            function() {
-                                $(this).text('Remove');
-                                $('#defaultCountdown').countdown({until: time});
-                            }
-                        );
-                      
- 
-                    $('.show').fadeIn(600);
-              
-                });
-            </script>
-	
-	
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
