@@ -31,7 +31,7 @@ $(document).ready(function($) {
 	$banner3 = $('<div>').css({
 		background: 'rgba(141, 205, 140, 1)',
 		position: 'absolute', 
-		width: '11.3em',
+		width: '14.6em',
 	  height: '0',
 	  top: '0',
 	  opacity: '.5'
